@@ -39,7 +39,7 @@ const About = () => {
         </div>
 
         {/* left side  */}
-        <div className='flex-1'>
+        <div className='flex-1 opacity-55'>
           <motion.img src={boy}
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
