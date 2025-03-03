@@ -6,6 +6,9 @@ import Marque from './component/Marque'
 import Skills from './component/Skills'
 import Achive from './component/Achive'
 import Project from './component/Project'
+import Contact from './component/Contact'
+import Footer from './component/Footer'
+
 
 const App = () => {
   return (
@@ -17,6 +20,8 @@ const App = () => {
       <Skills />
       <Achive />
       <Project />
+      <Contact />
+      <Footer />
 
     </div>
   )
